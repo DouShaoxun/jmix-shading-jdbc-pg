@@ -1,0 +1,25 @@
+.jmix
+
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+~$*.docx
+~$*.xlsx
+~$*.xls
+### IntelliJ IDEA ###
+.idea/*
+*.iws
+*.iml
+*.ipr
+out/
+
+### VS Code ###
+.vscode/
+application-dev.properties
+logs
+*.log
+bin
+logback-spring-dev.xml
+jmix-studio.xml
